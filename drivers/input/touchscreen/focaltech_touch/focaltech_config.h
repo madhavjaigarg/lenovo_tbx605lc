@@ -183,7 +183,7 @@
 /*
  * auto upgrade, please keep enable
  */
-#define FTS_AUTO_UPGRADE_EN                     1
+#define FTS_AUTO_UPGRADE_EN                     0
 
 /*
  * auto upgrade for lcd cfg
@@ -215,7 +215,7 @@
  * define your own fw_file, the sample one to be replaced is invalid
  * NOTE: if FTS_GET_VENDOR_ID_NUM > 1, it's the fw corresponding with FTS_VENDOR_ID
  */
-#define FTS_UPGRADE_FW_FILE                      "include/firmware/FT8201_FW_BOE_LIANXIANG_TAB510L_10.1inch_V0xae_20190424_all.i"
+// #define FTS_UPGRADE_FW_FILE                      "include/firmware/FT8201_FW_BOE_LIANXIANG_TAB510L_10.1inch_V0xae_20190424_all.i"
 
 /*
  * if FTS_GET_VENDOR_ID_NUM >= 2, fw corrsponding with FTS_VENDOR_ID2

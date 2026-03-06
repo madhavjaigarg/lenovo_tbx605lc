@@ -42,7 +42,7 @@
 /*****************************************************************************
 * Global variable or extern global variabls/functions
 *****************************************************************************/
-/* Upgrade FW/PRAMBOOT/LCD CFG */
+/* Upgrade FW/PRAMBOOT/LCD CFG 
 u8 fw_file[] = {
 #include FTS_UPGRADE_FW_FILE
 };
@@ -59,7 +59,7 @@ struct upgrade_fw fw_list[] = {
     {FTS_VENDOR_ID, fw_file, sizeof(fw_file)},
     {FTS_VENDOR_ID2, fw_file2, sizeof(fw_file2)},
     {FTS_VENDOR_ID3, fw_file3, sizeof(fw_file3)},
-};
+}; */
 
 struct upgrade_func *upgrade_func_list[] = {
     &upgrade_func_ft8006,
