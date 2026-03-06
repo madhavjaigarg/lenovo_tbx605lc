@@ -38,10 +38,11 @@
 /*****************************************************************************
 * Global variable or extern global variabls/functions
 *****************************************************************************/
+/* Commented out due to causing errors
 u8 pb_file_ft8006[] = {
 #include "../include/pramboot/FT8006_Pramboot_v1.4_20180319.i"
 };
-
+*/
 /*****************************************************************************
 * Private constant and macro definitions using #define
 *****************************************************************************/
