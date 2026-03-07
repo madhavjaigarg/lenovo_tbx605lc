@@ -20,6 +20,6 @@
 / {
 	model = "Qualcomm Technologies, Inc. SDM450 + PMI632 QRD SKU4";
 	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";
-	qcom,board-id = <b 0>;
+	qcom,board-id = <0x0b 0>;
 };
 
