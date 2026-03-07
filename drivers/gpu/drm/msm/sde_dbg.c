@@ -262,7 +262,7 @@ static void _sde_debug_bus_axi_dump_sdm845(void __iomem *mem_base,
 		return;
 
 	for (i = 0; i <= RSC_DEBUG_MUX_SEL_SDM845; i++) {
-		sde_rsc_debug_dump(i);
+		//sde_rsc_debug_dump(i);
 
 		/* make sure that mux_sel updated */
 		wmb();
